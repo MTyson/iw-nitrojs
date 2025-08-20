@@ -10,6 +10,7 @@
     "nitropack": "^2.12.4"
   },
   "dependencies": {
+    "@vercel/kv": "^1.0.1",
     "ioredis": "^5.7.0"
   }
 }

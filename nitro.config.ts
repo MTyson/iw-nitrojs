@@ -6,9 +6,7 @@ export default defineNitroConfig({
   srcDir: "server",
   storage: {
     data: {
-      driver: 'redis',
-      url: process.env.KV_REST_API_URL,
-      token: process.env.KV_REST_API_TOKEN
+      driver: 'vercel-kv',
     }
   }
   
